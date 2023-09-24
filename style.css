@@ -1,0 +1,304 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+   background-color: #01232c;
+}
+nav{
+    display: flex;
+justify-content: space-around;
+align-items: center;
+padding: 10px 0px 10px 0px;
+
+}
+.logo h2{
+    color: white;
+    font-size: 13px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo img{
+    width: 18px;
+}
+.nav-links ul{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    
+}
+.nav-links li{
+    list-style: none;
+}
+.nav-links a{
+    font-size: 13px;
+   text-decoration: none;
+    color: white;
+padding-right: 20px;
+}
+.nav-links button{
+    color: black;
+    padding: 10px 20px 10px 20px;
+    font-size: 13px;
+}
+.banner{
+    background:url(assets/img/background-img-cover.jpg);
+    background-size: cover;
+}
+.banner-design{
+    display: flex;
+    
+    width: 82%;
+    margin-left: auto;
+}
+.banner-content{
+    padding-top: 9%;
+    position: relative;
+    width: 48%;
+}
+.banner-content h2{
+    -webkit-text-stroke-color: white;
+    color: transparent;
+    font-size: 64px;
+    -webkit-text-stroke-width: thin;
+}
+.banner-content h1{
+    font-size:90px;
+    color: white;
+    
+}
+.banner-img{
+    padding-top: 7%;
+    position: relative;
+}
+.banner-img img{
+    width: 555px;
+}
+.banner-content p{
+    color: white;
+    width: 10;
+    width: 82%;
+    text-transform: capitalize;
+    letter-spacing: 0.2px;
+    font-size: 15px;
+    font-weight: 100;
+}
+.banner-content button{
+    color: black;
+    letter-spacing: 1px;
+    font-size: 17px;
+    background-color: #b5e51d;;
+    padding: 20px 25px 20px 25px;
+    border:transparent;
+}
+.logo-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+
+}
+.logos img{
+    width: 20%;
+}
+.logos{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.heading-1{
+    text-align: center;
+
+}
+.our-program{
+    padding-top: 20px;
+}
+.heading-1 h3{
+    color: #b5e51d;
+    font-size: 50px;
+    margin: 10px 0px 10px 0px;
+}
+.heading-1 h1 span{
+    -webkit-text-stroke-color: white;
+    color: transparent;
+    -webkit-text-stroke-width: thin;
+}
+.heading-1 h1{
+    color: white;
+    font-size: 60px;
+}
+.card{
+    border: transparent;
+    max-width: 62%;
+    margin: auto;
+    margin-top: 50px;    display: grid;
+grid-template-columns: repeat(auto-fit,minmax(234px,1fr));
+
+}
+.cards{
+    background-color: #0e2d35;
+    margin: 10px;
+    padding-left: 25px;
+    padding-bottom:71px;
+    padding-top: 30px;
+    padding-right: 16px;
+}
+
+.cards .topic{
+    margin-top: 20px;
+    color: white;
+}
+.topic p{
+    margin-top: 8px;
+    font-size: 12px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+}
+.choosing{
+    background: url(assets/img/choose-background.png);
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 49px;
+}
+.choose-img {
+    width: 33%;
+    margin-left: 30px;
+    margin-top: 8px;
+}
+.choose-content{
+    margin:60px;
+
+}
+.choose-content h3{
+    color: #b5e51d;
+    font-size: 69px;
+margin-bottom: 10px;
+}
+.choose-content h1{
+    font-size: 75px;
+color: white;
+}
+.choose-content span{
+    -webkit-text-stroke-color: white;
+    color: transparent;
+    -webkit-text-stroke-width: thin;
+
+}
+.choosing .choose-content .paragraph{
+    color: #5f5f5f;
+    font-weight: bold;
+    text-transform: capitalize;
+    width: 58%;
+    margin: 10px 0px 20px 0px;
+}
+.choose-number{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(190px,1fr));
+    width: 69%;
+}
+.num{
+    width: 64%;
+    margin-top:50px;
+}
+.num h2{
+    margin-bottom: 10px;
+    color: white;
+    font-size: 48px;
+}
+.num p{
+    color: grey;
+    font-size: 18px;
+}
+.pricing .price-heading h2{
+    color: #b5e51d;
+    font-size: 50px;
+    margin: 10px 0px 10px 0px;
+}
+.pricing .price-heading h1{
+    color: white;
+    font-size: 60px;
+    
+}
+.price-heading{
+    text-align: center;
+}
+.pricing span{
+    -webkit-text-stroke-color: white;
+    color: transparent;
+    -webkit-text-stroke-width: thin;
+}
+.pricing-card{
+    max-width: 62%;
+    margin: auto;
+    margin-top: 55px;
+    border: transparent;
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+}
+.price-head h3,h2{
+    color: white;
+    margin-top: 20px;
+margin-bottom: 20px;
+}
+.price-head h2{
+    font-size: 48px;
+}
+.price-content li{
+    color: white;
+list-style: none;
+text-transform: capitalize;
+font-size: 15px;
+margin-bottom: 8px;
+}
+.price-content ul{
+    margin-top: 34px;
+}
+.price-card{
+    background-color: #0e2d35;
+    margin: 10px;
+    padding-left: 39px;
+    padding-bottom: 33px;
+    padding-top: 30px;
+}
+.pricing{
+    padding-top: 45px;
+}
+.footer{
+    display: flex;
+    gap: 33px;
+    flex-wrap: wrap;
+    max-width: 92%;
+       margin-left: auto;
+    margin-top: 34px;
+    padding-bottom: 20px;
+}
+.footer-1{
+    flex-basis: 50%;
+}
+.footer-1 .email input{
+    padding: 12px;    
+    margin-top: 18px;  
+      background: transparent;   
+       border: 1px solid #b5e51d;   
+}
+.footer-1 .email button{
+    padding: 12px;
+    background: #b5e51d;
+    border: transparent;
+    color: black;
+}
+.footer-2 li{
+    list-style: none;
+    color: grey;
+    margin-bottom: 6px;
+    font-size: 16px;
+
+}
